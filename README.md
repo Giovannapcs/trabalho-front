@@ -1,4 +1,4 @@
-# Trabalho Front
+# trabalho-front
 
 Projeto front-end com arquivos estáticos (HTML, CSS, JS).
 
@@ -24,3 +24,4 @@ Observações:
 - Arquivos sensíveis (ex.: `.env`) devem ser adicionados ao `.gitignore`.
 
 Se quiser, eu posso criar o repositório remoto automaticamente com `gh` se estiver instalado e autenticado. Deseja que eu faça isso? Informe também o nome do repositório e se deve ser `public` ou `private`.
+
