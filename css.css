@@ -1,0 +1,108 @@
+/* Código CSS para o arquivo 'estilo.css' */
+
+/* 1. ESTILIZAÇÃO GERAL E ELEMENTOS HTML */
+
+[cite_start]/* Estilo do Rodapé [cite: 232, 235] */
+footer {
+    text-align: center;
+    position: relative; /* Pode ser 'fixed' ou 'relative' dependendo do seu objetivo */
+    /* bottom: 0; */ /* Removido para usar apenas text-align conforme o material */
+}
+
+[cite_start]/* Estilo do texto dentro do Rodapé [cite: 245] */
+footer p {
+    font-weight: bold; [cite_start]/* Deixa o texto em negrito [cite: 247] */
+    padding: 10px; [cite_start]/* Adiciona espaçamento interno [cite: 249] */
+}
+
+
+/* 2. ESTILIZAÇÃO DO HEADER (NAVBAR) */
+
+[cite_start]/* Tamanho da imagem do logo dentro do header [cite: 490] */
+header img {
+    height: 70px; [cite_start]/* Altura de 70px [cite: 491] */
+    width: 70px;  [cite_start]/* Largura de 70px [cite: 491] */
+}
+
+/* 3. ESTILIZAÇÃO DA SECTION-BANNERS (CAROUSEL) */
+
+[cite_start]/* Altura fixa para todas as imagens do Carrossel [cite: 606] */
+#section-banners img {
+    height: 500px;
+}
+
+
+/* 4. ESTILIZAÇÃO DA SECTION-VENDIDOS (CARDS) */
+
+[cite_start]/* Centraliza o conteúdo da seção [cite: 727] */
+#section-vendidos {
+    text-align: center;
+}
+
+[cite_start]/* Estiliza o título H2 da seção [cite: 730] */
+#section-vendidos h2 {
+    font-weight: bold;
+    padding: 20px;
+}
+
+[cite_start]/* Altura fixa e borda arredondada para as imagens dos cards [cite: 733] */
+#section-vendidos img {
+    height: 300px;
+    border-radius: 10px;
+}
+
+[cite_start]/* Estiliza o card individualmente [cite: 737] */
+#section-vendidos .card {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+[cite_start]/* Estiliza o preço do produto [cite: 742] */
+[cite_start].preco { /* Corrigido para .preco, pois a tag <p> tem a classe 'preco' no HTML [cite: 718] */
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* 5. ESTILIZAÇÃO DO BOTÃO VOLTAR AO TOPO */
+
+[cite_start]/* Posicionamento fixo para o botão Voltar ao Topo [cite: 821] */
+#voltar-topo {
+    position: fixed;
+    bottom: 5px; [cite_start]/* 5px da borda inferior [cite: 822] */
+    right: 50px; [cite_start]/* 50px da borda direita [cite: 823] */
+}
+
+
+/* 6. ESTILIZAÇÃO DA PÁGINA DE LOGIN */
+
+[cite_start]/* Margem superior para a seção de login [cite: 829] */
+#section-login {
+    margin-top: 100px;
+}
+
+[cite_start]/* Centraliza o título H1 do login [cite: 832] */
+#section-login h1 {
+    text-align: center;
+}
+
+[cite_start]/* Inputs do login/cadastro ocupam 100% da largura [cite: 835] */
+#section-login input {
+    width: 100%;
+}
+
+[cite_start]/* Estilização da seção de cadastro (pode não ser necessária se for slideToggle) [cite: 841] */
+#section-cadastro {
+    padding: 5px;
+    text-align: center;
+    background-color: #fff;
+}
+
+[cite_start]/* Estilização do formulário de cadastro (escondido por padrão) [cite: 845] */
+#form-cadastrar {
+    padding: 50px;
+    display: none; [cite_start]/* Deixa o formulário de cadastro oculto por padrão [cite: 846] */
+    [cite_start]/* Para teste: mude para display: block; para ver o formulário [cite: 857] */
+}

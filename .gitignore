@@ -1,0 +1,17 @@
+# Sistema
+Thumbs.db
+ehthumbs.db
+
+# Node
+node_modules/
+
+# VSCode
+.vscode/
+
+# Env
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+*.log
